@@ -1,0 +1,115 @@
+mern project
+==============================
+1) react finished
+2) mongodb
+==========================
+1) mongodb About: 
+2) sql vs nosql
+3) install 
+	1) Community Server
+	2) compass
+	3) shell  // paste in c drive and rename 'mongose'
+4) GUI vs CLI
+5) default port 27017
+6) mongodb commands list 
+	show all database
+		show dbs
+	create new databse
+		use dbname   // create and switch
+	show current db name
+		db 
+	create new collections
+		db.createCollection("store")
+	show all collections list
+		show collections
+	insert single data
+		db.store.insertOne({name:'kumar'})
+	insert multi data 
+		db.store.insertMany([{},{}])
+	show all records of collection
+		db.store.find()
+	---------------------------------------------------
+	remove data
+		db.store.remove({})
+	update data
+		db.store.update({_id:ObjectId("64c5f5f66c94c6ab586135a1")},{$set:{'Region':'kumar singh'}})
+
+	
+7) mongodb operators
+	1) $eq
+	2) $gte
+		...
+	3) $and
+-------------------------------------------------
+8) import and export
+	json
+	csv
+9) datatype
+	Long
+	Double
+	Boolean
+	Date
+	String
+	Null
+	Undefined
+	ObjectId
+	Binary
+10) default limit set 20 per page
+	show more data 'it'
+11) CRUD operation of mongodb
+12) data sort 
+----------------------------------------------------------
+Node.js
+=========================
+1) About Node.js
+2) HTTP Method
+	GET
+	Delete
+	Put
+	Update
+	Petch
+	post
+3) response code status
+	Informational responses (100 – 199)
+	Successful responses (200 – 299)
+	Redirection messages (300 – 399)
+	Client error responses (400 – 499)
+	Server error responses (500 – 599)
+4) create node.js file
+	1) http       required module
+		a) createServer()         // create new server
+		b) write()		// write data on browser
+		c) end()		// after the first response end/stop
+		d) listen()		// display data on host( address) 
+----------------------------------------------------------------------------
+5) create router
+	req.url
+	if()
+6) internal style
+7) use module   (fs) file system
+	1) readFile()
+	2) writeHead()	
+-----------------------------------------------
+8) path module
+	createReadStream()
+	pipe()
+9) read image/ read js, read css, read html
+10) nodemon ( re-start server after change)
+	1) npm init -y  // generate package json file	
+	2) npm install nodemon
+	3) config in json
+	
+
+
+
+
+	
+
+
+
+
+	
+
+	
+	
+ 
